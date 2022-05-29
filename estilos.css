@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* -----------------------INDEX--------------------------- */
+
+.logo{
+    width: 31px; 
+}
+
+.navbar{
+    background-color: goldenrod;
+    
+}
+
+.carousel-inner img {
+    width:100%;
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    
+}
+
+
+
+.fuente{
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+}
+
+.titulo{
+    text-transform: uppercase;
+    
+}
+
+.nosotros{
+    text-align: center;
+    margin: 60px;
+    color:black;
+    font-size: 30px;
+    font-family:'Domine', serif;
+    font-weight:300;
+    
+}
+
+.nleft{
+    padding-left: 35px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+
+.nrigth{
+    padding-left: 35px;
+    
+    
+}
+
+/*------footer-------*/
+
+.piedepagina{
+    background-color:goldenrod;
+    margin:auto;
+
+}
+
+.piepaginafinal{
+    color: white;
+    background-color:#24303c;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------La Empresa---------------------------------*/
+
+
+#titulo{
+    font-family:'Domine', serif;
+    font-weight:300;
+}
+
+.imagenempresa{
+    background-image: url(./img/empresa.jpg);
+    background-position: center;
+    background-size:cover;
+    height:350px;
+    border-radius:4px;
+}
+
+.imagenempresa2{
+    background-image: url(./img/financiero.jpg);
+    background-position: center;
+    background-size:cover;
+    height:350px;
+    border-radius:4px;
+}
+
+/*---------clientes-------*/
+
+.clientes{
+    font-family:'Domine', serif;
+    font-weight:300;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------obras---------------------*/
+
+.titulobras{
+    font-family:'Domine', serif;
+    font-weight:200;
+}
+
+#galeria .col-sm-4 {
+    margin: 0 !important;
+    padding: 25px;
+    background-color:whitesmoke;
+    border-radius: 4px;
+}
+
+
+#galeria img{
+    width: 100%;
+    height:200px;
+    background-size:cover;
+    
+}
+
+#galeria img:hover{
+    border:5px solid #f7f7f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------CONTACTO------- */
+
+.imagenfondo{
+    background-image:url(./img/formulario.jpg) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.recuadro{
+    background-color: #24303c;
+    border-radius: 7px;
+    box-shadow: 7px 13px 37px #000;
+    
+    
+    
+}
+
+.letralabel{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
