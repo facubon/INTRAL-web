@@ -60,7 +60,7 @@
 }
 
 .nrigth{
-    padding-left: 35px;
+    padding-left:35px;
     
     
 }
@@ -104,31 +104,57 @@
     border-radius:4px;
 }
 
-/*---------clientes-------*/
 
-.clientes{
+
+/*-----------------------servicios-------------------------------*/
+
+.servicios{
+    font-family: 'ubuntu',sans-serif;
+    background-color:#dbe5e6;
+    padding: 30px 0px;
+}
+
+.servicios h1 {
     font-family:'Domine', serif;
     font-weight:300;
+    padding-bottom:5px;
+}
 
+.card-img-top{
+    width:100%;
+    height:15vw;
+    object-fit: cover;
+}
+
+.title{
+    text-align: center;
+    padding: 25px 0px;
+    
+
+}
+
+.card-text{
+    font-size:14px;
+}
+
+.cardservicio{
+    box-shadow: 0 0 20px 7px rgba(0,0, 0,1);
+}
+
+.card{
+    margin: 20px 10px;
 }
 
 
 
 
+/*---------clientes-------*/
 
+.clientes{
+    font-family:'Domine', serif;
+    font-weight:500;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -136,16 +162,13 @@
 
 .titulobras{
     font-family:'Domine', serif;
-    font-weight:200;
+    font-weight:100;
 }
 
-#galeria .col-sm-4 {
+#galeria .col-lg-4{
     margin: 0 !important;
     padding: 25px;
-    background-color:whitesmoke;
-    border-radius: 4px;
 }
-
 
 #galeria img{
     width: 100%;
@@ -156,22 +179,8 @@
 
 #galeria img:hover{
     border:5px solid #f7f7f7;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -202,22 +211,76 @@
 
 
 
+
+
+
+
+
 /*------------Media Queries--------------*/
 
+
 @media (max-width:575px){
-    
+
+    /*----pie de pagina y navbar---*/
+
     .piedepagina{
         text-align: center; 
     }
 
     .fuente{
-        color: black;
-        font-size:small;
+        color:black;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+
+    .navbar-expand-md{
+        border-radius:14px;
     }
 
     
 
+    /*----index----*/
+
+    .nrigth{
+        padding-left:15px;
+        
+    }
+
+    /*---la empresa----*/
+
+    .imagenempresa{
+        height: 200px;      
+    }
+
+    .imagenempresa2{
+        height: 200px;
+    }
 
 
+    /*----servicios---*/
 
+    .card-img-top{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+    /*----obras----*/
+
+    #galeria{
+        text-align: center;
+    }
+
+    .titulobras{
+        font-size:35px;
+    }
+
+
+    /*----contacto---*/
+
+    .formulario{
+        width:80%;
+        height:70%;
+    }
 }
